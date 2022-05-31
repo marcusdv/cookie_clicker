@@ -16,8 +16,8 @@ aceitar_cookies_site = WebDriverWait(driver, 20).until(
     EC.element_to_be_clickable((By.CLASS_NAME, "cc_btn_accept_all"))
 ).click()
 
-stats = WebDriverWait(driver, 20).until(
-    EC.element_to_be_clickable((By.ID, "statsButton"))
+language = WebDriverWait(driver, 20).until(
+    EC.element_to_be_clickable((By.ID, "langSelect-PT-BR"))
 ).click()
 
 def main():
